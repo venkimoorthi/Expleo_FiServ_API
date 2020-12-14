@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<Compile Remove="DB\SingletonEmployeeRepo.cs" />
+    <Compile Remove="DB\SingletonStudentRepo.cs" />
+    <Compile Remove="DB\SingletonUserRepo.cs" />-->
+	  <Compile Remove="DB\SingletonEmployeeRepo.cs" />
+	  <Compile Remove="DB\SingletonStudentRepo.cs" />
+	  <Compile Remove="DB\SingletonUserRepo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplication_Shared_Services\WebApplication_Shared_Services.csproj" />
+  </ItemGroup>
+
+</Project>
